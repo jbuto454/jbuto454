@@ -4,21 +4,21 @@ Data engineer with 5+ years of product management experience, now building the s
 
 ## Projects
 
-### [MAANG Stock Data Pipeline](link)
+### [MAANG Stock Data Pipeline](https://github.com/jbuto454/MAANG-Stock-Data-Pipeline)
 End-to-end ETL pipeline ingesting daily stock data from Polygon API into Databricks.
 - Airflow orchestration with idempotent, backfill-safe DAG design
 - 6-point data quality framework gating staging → production promotion
 - Apache Iceberg tables with 7-day rolling cumulative metrics
 - **Stack:** Python, Airflow, Databricks, Iceberg, REST APIs
 
-### [Haunted House Analytics](link)
+### [Haunted House Analytics](https://github.com/jbuto454/haunted-house-analytics)
 dbt project demonstrating dimensional modeling for a theme park data warehouse.
 - Staging → marts transformation layer with deduplication logic
 - Window functions, join strategies, data quality testing
 - Custom schema management with dbt macros
 - **Stack:** dbt, SQL, Snowflake
 
-### [Philadelphia City Data Processor](link)
+### [Philadelphia City Data Processor](https://github.com/jbuto454/java-csv-parser-engineering-portfolio)
 Java application processing city datasets through custom-built CSV parser.
 - State machine CSV parser handling edge cases (quoted fields, escapes)
 - Design patterns: Singleton, Factory, Strategy
